@@ -16,7 +16,7 @@ export default function LearnMorePage() {
         {/* Description */}
         <div className="mt-12 max-w-3xl">
           <p className="text-lg leading-relaxed text-gray-300 text-justify bg-white/5 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
-            Hello! I'm <span className="font-semibold text-white">Syahrul</span>, 
+            Hello! I&apos;m <span className="font-semibold text-white">Syahrul</span>, 
             a graduate of <span className="font-semibold text-white">Computer Engineering at ITS </span> 
             with a strong enthusiasm for building meaningful technology. 
             My journey into the world of tech began with a conscious choice 
