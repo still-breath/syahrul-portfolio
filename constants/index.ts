@@ -233,49 +233,49 @@ export const PROJECTS = [
     description:
       "Developed a real-time shelf stock monitoring application using Python, with a user interface built in PyQt. This system implements an advanced RT-DETR object detection model with SAHI for sliced inference and includes key software utilities like multi-camera support and dynamic directory management to meet client needs.",
     image: "/projects/retrux_poster.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    link: "#projects", 
   },
   {
     title: "JAREE ITS (Academic Journal Platform)",
     description:
       "Orchestrated a seamless, live migration of the OJS platform from version 2 to 3, ensuring service continuity for over 30,000 users and upgrading a database with more than 597,000 records. I also engineered the complete academic peer-review workflow and developed a custom front-end theme to significantly enhance the user experience.",
     image: "/projects/jaree_poster.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    link: "#projects", 
   },
   {
     title: "Padel-Clipper (IoT Video Highlight System)",
     description:
       "Engineered a full IoT video highlight system, including a Flask dashboard and ESP32 hardware, which was deployed on a VPS for nearly 250 active customers. While the production system connects to a team-built Express.js backend, I independently re-engineered and built a new backend in Go (Golang) as a personal project to explore more efficient, concurrent solutions.",
     image: "/projects/padel_poster.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    link: "#projects", 
   },
   {
     title: "3D Container Loading Optimizer",
     description:
       "Developed a web-based logistics tool to solve the 3D Bin Packing Problem, achieving a container fill rate of 87-89%. I researched and implemented multiple packing algorithms in Python (Genetic Algorithm, BLF, CLPTAC) and built the full-stack application with React.js, Fast API, and a Three.js canvas for 3D visualization.",
-    image: "/projects/project-4.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    image: "/projects/packing_poster.png",
+    link: "#projects", 
   },
   {
     title: "Vehicle Speed Estimation System with Drone & YOLOv8",
     description:
       "Developed a real-time vehicle speed estimation system that achieved a peak measurement accuracy of 99.55%. I trained a superior YOLOv8 model for night-time conditions (mAP50 of 0.93) and leveraged TensorRT to triple inference speed on the Jetson Nano, enabling real-time processing.",
     image: "/projects/ta_poster.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    link: "#projects", 
   },
   {
     title: "BengkelMate: Workshop Business Process Digitalization",
     description:
       "As part of a three-person team, I developed a full MERN stack web application to digitize workshop workflows. The app features a role-based system for Security, Service Advisors, and Spare Parts teams, and achieved excellent Lighthouse scores in Performance (96), Best Practices (96), and SEO (92).",
     image: "/projects/bengkel_poster.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+    link: "#projects", 
   },
   {
     title: "ECG Exhibition Prototype",
     description:
-      "Co-developed a functional ECG device for a technical exhibition, which validated its performance with 95-100% accuracy in real-time heart rate detection. I engineered the end-to-end system, from Arduino signal acquisition firmware to the design and fabrication of the physical, exhibition-ready casing.",
-    image: "/projects/project-1.png",
-    link: "#", // Ganti dengan link proyek yang relevan
+      "Co-developed a functional ECG device for a technical exhibition, which validated its performance with 95-100% accuracy in real-time heart rate detection. I engineered the end-to-end system, from the development of the ECG device to the design and fabrication of the physical, exhibition-ready casing.",
+    image: "/projects/ecg_poster.png",
+    link: "#projects", 
   },
 ] as const;
 
