@@ -274,7 +274,7 @@ export const PROJECTS = [
     title: "ECG Exhibition Prototype",
     description:
       "Co-developed a functional ECG device for a technical exhibition, which validated its performance with 95-100% accuracy in real-time heart rate detection. I engineered the end-to-end system, from Arduino signal acquisition firmware to the design and fabrication of the physical, exhibition-ready casing.",
-    image: "/projects/project-8.png",
+    image: "/projects/project-1.png",
     link: "#", // Ganti dengan link proyek yang relevan
   },
 ] as const;
