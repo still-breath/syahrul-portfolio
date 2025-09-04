@@ -1,6 +1,6 @@
 "use client";
 
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import { SparklesIcon, ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -58,6 +58,15 @@ export const HeroContent = () => {
             Learn more
           </Link>
         </motion.div>
+        <motion.a
+          variants={slideInFromLeft(1)}
+          href="/CV.pdf"
+          download
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] flex items-center justify-center gap-2"
+        >
+          CV
+          <ArrowDownTrayIcon className="h-5 w-5" />
+        </motion.a>
       </div>
 
       <motion.div
