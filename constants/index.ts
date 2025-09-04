@@ -239,14 +239,14 @@ export const PROJECTS = [
     title: "JAREE ITS (Academic Journal Platform)",
     description:
       "Orchestrated a seamless, live migration of the OJS platform from version 2 to 3, ensuring service continuity for over 30,000 users and upgrading a database with more than 597,000 records. I also engineered the complete academic peer-review workflow and developed a custom front-end theme to significantly enhance the user experience.",
-    image: "/projects/project-2.png",
+    image: "/projects/jaree_poster.png",
     link: "#", // Ganti dengan link proyek yang relevan
   },
   {
     title: "Padel-Clipper (IoT Video Highlight System)",
     description:
-      "Developed a Flask-based monitoring dashboard and integrated it with an Express.js backend for a real-time video clipping service. I engineered and programmed an IoT push-button device using ESP32 to trigger highlight captures from IP cameras, and deployed the entire system on a VPS, scaling it to serve nearly 250 active customers.",
-    image: "/projects/project-3.png",
+      "Engineered a full IoT video highlight system, including a Flask dashboard and ESP32 hardware, which was deployed on a VPS for nearly 250 active customers. While the production system connects to a team-built Express.js backend, I independently re-engineered and built a new backend in Go (Golang) as a personal project to explore more efficient, concurrent solutions.",
+    image: "/projects/padel_poster.png",
     link: "#", // Ganti dengan link proyek yang relevan
   },
   {
@@ -260,21 +260,14 @@ export const PROJECTS = [
     title: "Vehicle Speed Estimation System with Drone & YOLOv8",
     description:
       "Developed a real-time vehicle speed estimation system that achieved a peak measurement accuracy of 99.55%. I trained a superior YOLOv8 model for night-time conditions (mAP50 of 0.93) and leveraged TensorRT to triple inference speed on the Jetson Nano, enabling real-time processing.",
-    image: "/projects/project-5.png",
-    link: "#", // Ganti dengan link proyek yang relevan
-  },
-  {
-    title: "Padel-Clipper (IoT System with Golang API)",
-    description:
-      "Developed a high-performance RESTful API in Go (Golang) for the video clipping service. The API leverages goroutines and channels to efficiently handle concurrent requests from multiple IoT devices, ensuring scalability and real-time responsiveness.",
-    image: "/projects/project-6.png",
+    image: "/projects/ta_poster.png",
     link: "#", // Ganti dengan link proyek yang relevan
   },
   {
     title: "BengkelMate: Workshop Business Process Digitalization",
     description:
       "As part of a three-person team, I developed a full MERN stack web application to digitize workshop workflows. The app features a role-based system for Security, Service Advisors, and Spare Parts teams, and achieved excellent Lighthouse scores in Performance (96), Best Practices (96), and SEO (92).",
-    image: "/projects/project-7.png",
+    image: "/projects/bengkel_poster.png",
     link: "#", // Ganti dengan link proyek yang relevan
   },
   {
