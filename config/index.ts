@@ -35,8 +35,8 @@ export const siteConfig: Metadata = {
     "css",
   ] as Array<string>,
   authors: {
-    name: "Sanidhya Kumar Verma",
-    url: "https://github.com/sanidhyy",
+    name: "Syahrul Fathoni Ahmad",
+    url: "https://github.com/still-breath",
   },
   icons: {
     icon: "/favicon.ico",
