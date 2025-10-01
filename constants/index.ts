@@ -229,31 +229,38 @@ export const AI_ML = [
 
 export const PROJECTS = [
   {
-    title: "Retrux-Shelf-Eye (AI Inventory Management System)",
-    description:
-      "Developed a real-time shelf stock monitoring application using Python, with a user interface built in PyQt. This system implements an advanced RT-DETR object detection model with SAHI for sliced inference and includes key software utilities like multi-camera support and dynamic directory management to meet client needs.",
-    image: "/projects/retrux_poster.png",
-    link: "#projects", 
-  },
-  {
-    title: "JAREE ITS (Academic Journal Platform)",
-    description:
-      "Orchestrated a seamless, live migration of the OJS platform from version 2 to 3, ensuring service continuity for over 30,000 users and upgrading a database with more than 597,000 records. I also engineered the complete academic peer-review workflow and developed a custom front-end theme to significantly enhance the user experience.",
-    image: "/projects/jaree_poster.png",
-    link: "#projects", 
-  },
-  {
     title: "Padel-Clipper (IoT Video Highlight System)",
     description:
       "Engineered a full IoT video highlight system, including a Flask dashboard and ESP32 hardware, which was deployed on a VPS for nearly 250 active customers. While the production system connects to a team-built Express.js backend, I independently re-engineered and built a new backend in Go (Golang) as a personal project to explore more efficient, concurrent solutions.",
     image: "/projects/padel_poster.png",
-    link: "#projects", 
+    link: "https://github.com/still-breath/clipper-dashboard-go", 
   },
   {
     title: "3D Container Loading Optimizer",
     description:
       "Developed a web-based logistics tool to solve the 3D Bin Packing Problem, achieving a container fill rate of 87-89%. I researched and implemented multiple packing algorithms in Python (Genetic Algorithm, BLF, CLPTAC) and built the full-stack application with React.js, Fast API, and a Three.js canvas for 3D visualization.",
     image: "/projects/packing_poster.png",
+    link: "https://github.com/still-breath/packaging-box-website", 
+  },
+  {
+    title: "Personal Finance - Smart Management System",
+    description:
+      "Developed a web-based application to help users manage their finances effectively. The system includes features for expense tracking, budgeting, and financial reporting, all built with a user-friendly interface using React.js and Golang backend. Smart categorization feature implemented using Python and scikit-learn for automated expense classification.",
+    image: "/projects/finance_poster.png",
+    link: "https://github.com/still-breath/finance-app-go", 
+  },
+  {
+    title: "Retrux-Shelf-Eye (AI Inventory Management System)",
+    description:
+      "Developed a real-time shelf stock monitoring application using Python, with a user interface built in PyQt. This system implements an advanced RT-DETR object detection model with SAHI for sliced inference and includes key software utilities like multi-camera support and dynamic directory management to meet client needs.",
+    image: "/projects/retrux_poster.png",
+    link: "https://github.com/still-breath/smart-inventory-management", 
+  },
+  {
+    title: "JAREE ITS (Academic Journal Platform)",
+    description:
+    "Orchestrated a seamless, live migration of the OJS platform from version 2 to 3, ensuring service continuity for over 30,000 users and upgrading a database with more than 597,000 records. I also engineered the complete academic peer-review workflow and developed a custom front-end theme to significantly enhance the user experience.",
+    image: "/projects/jaree_poster.png",
     link: "#projects", 
   },
   {
@@ -261,14 +268,14 @@ export const PROJECTS = [
     description:
       "Developed a real-time vehicle speed estimation system that achieved a peak measurement accuracy of 99.55%. I trained a superior YOLOv8 model for night-time conditions (mAP50 of 0.93) and leveraged TensorRT to triple inference speed on the Jetson Nano, enabling real-time processing.",
     image: "/projects/ta_poster.png",
-    link: "#projects", 
+    link: "https://github.com/still-breath/speed-detection_drone_jetson-nano", 
   },
   {
     title: "BengkelMate: Workshop Business Process Digitalization",
     description:
       "As part of a three-person team, I developed a full MERN stack web application to digitize workshop workflows. The app features a role-based system for Security, Service Advisors, and Spare Parts teams, and achieved excellent Lighthouse scores in Performance (96), Best Practices (96), and SEO (92).",
     image: "/projects/bengkel_poster.png",
-    link: "#projects", 
+    link: "https://github.com/still-breath/webapp-astrawaru", 
   },
   {
     title: "ECG Exhibition Prototype",
