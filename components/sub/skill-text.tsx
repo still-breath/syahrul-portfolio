@@ -17,21 +17,21 @@ export const SkillText = () => {
         className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-        <h1 className="Welcome-text text-[13px]">
+        <h1 className="Welcome-text text-[12px] sm:text-[13px]">
           Intelligent & Connected Solutions
         </h1>
       </motion.div>
 
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
+        className="text-[22px] sm:text-[26px] md:text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]"
       >
         A Full-Stack developer specializing in the intersection of Web, AI, and IoT.
       </motion.div>
 
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className="cursive text-[16px] sm:text-[18px] md:text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         Turning complex data and hardware into seamless applications.
       </motion.div>

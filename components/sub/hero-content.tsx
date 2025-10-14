@@ -17,7 +17,7 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-8 md:px-20 mt-24 md:mt-40 w-full z-[20] gap-10"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -32,7 +32,7 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-4 md:mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Building{" "}
@@ -45,7 +45,7 @@ export const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-base sm:text-lg text-gray-400 my-4 md:my-5 max-w-[600px]"
         >
           I&apos;m Syahrul, a developer specializing in creating modern and user-friendly applications. Explore my projects to see my skills in action.
         </motion.p>
@@ -73,7 +73,7 @@ export const HeroContent = () => {
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
-        <div className="relative w-[600px] h-[600px] rounded-full p-1 bg-gradient-to-tr from-purple-500 to-pink-500 animate-pulse-glow overflow-hidden">
+        <div className="relative w-[260px] h-[260px] sm:w-[360px] sm:h-[360px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full p-1 bg-gradient-to-tr from-purple-500 to-pink-500 animate-pulse-glow overflow-hidden">
           <Image
             src="/fotoku.png"
             alt="work icons"
